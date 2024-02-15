@@ -1,2 +1,2 @@
-# KPI and churn Analyses with forecasting
+# E-commerce KPI dashboards and analytics
 Contributors: Rishabh, Kartik, Mukul, Pratik, Naman
