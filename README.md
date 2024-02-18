@@ -7,7 +7,7 @@ Our E-commerce KPI and analytics project leverages benefits of Kafka, pySpark, H
 ### Data: (https://drive.google.com/drive/folders/1pVRpTNfTgMeqpEHQ_Zz-GPc1c8M4KTza?usp=drive_link)
 
 ## Goals: 
-1. To integrate Kafka, pySpark, hdfs and hive to streamlit powered web app to feed data to the dynamic dashboard.
+1. To integrate Kafka, pySpark, hdfs and hive to streamlit powered web app to feed data to different dynamic dashboard.
 2. To classify the types of customers who have the potential to churn by identifying features to minimize customer churn rates and suggest customer retention strategies.
 3. To create a recommendation system to enhance customer experience.
 
