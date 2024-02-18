@@ -11,5 +11,3 @@ Our E-commerce KPI and analytics project leverages benefits of Kafka, pySpark, H
 2. To classify the types of customers who have the potential to churn by identifying features to minimize customer churn rates and suggest customer retention strategies.
 3. To create a recommendation system to enhance customer experience.
 
-## Files:
-------
