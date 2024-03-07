@@ -16,3 +16,7 @@ Our E-commerce KPI and analytics project leverages benefits of Kafka, pySpark, H
 ### Technologies/frameworks/libraries:
 Python, Jupyter, Machine learning, Spark, Hive, HDFS, Streamlit, numpy, pandas, Matplotlib, seaborn, pyplot.
 
+### Results:
+Dashboards:
+
+
