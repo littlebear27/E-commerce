@@ -8,6 +8,11 @@ Our E-commerce KPI and analytics project leverages benefits of Kafka, pySpark, H
 
 ## Goals: 
 1. To create dashboards to understand various business insights.
-2. To classify the types of customers who have the potential to churn by identifying features to minimize customer churn rates and suggest customer retention strategies.
-3. To create a recommendation system to enhance customer experience.
+2. Perform RFM analysis to classify the types of customers and label the potential churns and suggest customer retention strategies to enhance customer engagement with the business.
+3. To train churn prediction model to predict customer behavior and minimize future potential churn. 
+4. To create a recommendation system to enhance customer experience.
+5. To create a web app to host the web app using streamlit.
+
+### Technologies/frameworks/libraries:
+Python, Jupyter, Machine learning, Spark, Hive, HDFS, Streamlit, numpy, pandas, Matplotlib, seaborn, pyplot.
 
