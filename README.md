@@ -23,10 +23,17 @@ Trends:
 ![](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Trend2.png)
 
 Customer's preferences:
+
 ![](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Customer_prefereence1.png)
 ![](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Customer_prefernce2.png)
 ![](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Customer_prefernce3.png)
 ![](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Customer_prefernces4.png)
+
+Geospatial:
+
+![](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Geo1.png)
+![](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Geo2.png)
+![](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Geo3.png)
 
 
 
