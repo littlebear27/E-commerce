@@ -18,10 +18,8 @@ Python, Jupyter, Machine learning, Spark, Hive, HDFS, Streamlit, numpy, pandas, 
 
 ### Results:
 Dashboards:
-Trends:
-
-(https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Trend1.png)
-(https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Trend2.png)
+[Trends](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Trend1.png)
+[](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Trend2.png)
 
 
 
