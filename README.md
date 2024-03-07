@@ -4,8 +4,7 @@ Contributors: Rishabh, Kartik, Mukul, Pratik, Naman
 ### Project description: 
 Our E-commerce KPI and analytics project leverages benefits of Kafka, pySpark, HDFS and Hive, where streamlit used to create web app to host dashboards and extract useful business insights. We performed Recency, Frequency, Monetary (RFM) analysis, and churn classification to uncover customer behavior patterns, identify potential churn and suggest retention strategies to enhance customer engagement with the business. In addition to comprehensive analytics approach, we've integrated a product recommendation system providing personalized suggestions and enhancing the overall customer experience. 
 
-### Data:
-[](https://drive.google.com/drive/folders/1pVRpTNfTgMeqpEHQ_Zz-GPc1c8M4KTza?usp=drive_link)
+### [Data](https://drive.google.com/drive/folders/1pVRpTNfTgMeqpEHQ_Zz-GPc1c8M4KTza?usp=drive_link)
 
 ## Goals: 
 1. To create dashboards to understand various business insights.
