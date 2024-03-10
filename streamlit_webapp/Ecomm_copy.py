@@ -16,7 +16,7 @@ import seaborn as sns
 import numpy as np
 import pickle
 import joblib
-import gdown
+import streamlit.components.v1 as components
 
 
 st.set_page_config(page_title="Dashboard",page_icon="🌍",layout="wide")
@@ -143,21 +143,13 @@ def get_recommendations(algo, df, selected_customer_id):
 
 @st.cache(show_spinner=False)
 def churn_data():
-    # Specify the file IDs from the Google Drive links
-    file_id1 = '1Wc2YNd1vx7tyaLx-2PrYrOZbLSDHJ4g_'
-    file_id2 = '1rUtejHq3QCYG7oVul0Urr2qIpYAV3jMX'
-
-    # Specify the output file names
-    output_file1 = 'file1.csv'
-    output_file2 = 'file2.csv'
-
-    # Download the files from Google Drive
-    gdown.download(f'https://drive.google.com/uc?id={file_id1}', output_file1, quiet=False)
-    gdown.download(f'https://drive.google.com/uc?id={file_id2}', output_file2, quiet=False)
+    # Specify the direct download links
+    url1 = 'https://drive.google.com/uc?id=your_file_id1'
+    url2 = 'https://drive.google.com/uc?id=your_file_id2'
 
     # Read the CSV files into DataFrames
-    df = pd.read_csv(output_file1)
-    rfm_df = pd.read_csv(output_file2)
+    df = pd.read_csv(url1)
+    rfm_df = pd.read_csv(url2)
 
     return df, rfm_df
 
