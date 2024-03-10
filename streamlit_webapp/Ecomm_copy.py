@@ -144,8 +144,8 @@ def get_recommendations(algo, df, selected_customer_id):
 @st.cache(show_spinner=False)
 def churn_data():
     # Specify the direct download links
-    url1 = 'https://drive.google.com/uc?id=your_file_id1'
-    url2 = 'https://drive.google.com/uc?id=your_file_id2'
+    url1 = 'https://drive.google.com/file/d/1Wc2YNd1vx7tyaLx-2PrYrOZbLSDHJ4g_/view?usp=drive_link'
+    url2 = 'https://drive.google.com/file/d/1rUtejHq3QCYG7oVul0Urr2qIpYAV3jMX/view?usp=drive_link'
 
     # Read the CSV files into DataFrames
     df = pd.read_csv(url1)
