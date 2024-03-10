@@ -17,6 +17,8 @@ import numpy as np
 import pickle
 import joblib
 import streamlit.components.v1 as components
+pip install gdown
+
 
 
 st.set_page_config(page_title="Dashboard",page_icon="🌍",layout="wide")
