@@ -146,7 +146,7 @@ def get_recommendations(algo, df, selected_customer_id):
 @st.cache_data(show_spinner=False)
 def churn_data():
     df = pd.read_csv('clv_data.csv')
-    rfm_df = pd.read_csv('rfm_df.csv')
+    rfm_df = pd.read_csv('https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/streamlit_webapp/extra/rfm_df.csv')
     return df,rfm_df
 
 
