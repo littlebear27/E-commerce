@@ -143,25 +143,11 @@ def get_recommendations(algo, df, selected_customer_id):
     top_recs = pids_to_predict[sorted_indices][:5]
     return top_recs
 
-@st.cache(show_spinner=False)
+@st.cache_data(show_spinner=False)
 def churn_data():
-    # Specify the direct download links or updated sharing links
-    url1 = 'https://drive.google.com/file/d/1Wc2YNd1vx7tyaLx-2PrYrOZbLSDHJ4g_/view?usp=drive_link'
-    url2 = 'https://drive.google.com/file/d/1rUtejHq3QCYG7oVul0Urr2qIpYAV3jMX/view?usp=drive_link'
-
-    # Specify the output file names
-    output_file1 = 'file1.csv'
-    output_file2 = 'file2.csv'
-
-    # Download the files from Google Drive using gdown
-    gdown.download(url1, output_file1, quiet=False)
-    gdown.download(url2, output_file2, quiet=False)
-
-    # Read the CSV files into DataFrames
-    df = pd.read_csv(output_file1)
-    rfm_df = pd.read_csv(output_file2)
-
-    return df, rfm_df
+    df = pd.read_csv('clv_data.csv')
+    rfm_df = pd.read_csv('rfm_df.csv')
+    return df,rfm_df
 
 
 
