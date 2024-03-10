@@ -51,7 +51,7 @@ def answer_diff(ad):
     else:
         return "After 1 Month"
 
-@st.cache_resource(show_spinner=False)# <--- to edit after full integrate
+@st.cache_resource(show_spinner=False)
 def data():     
     df=pd.read_csv('joined_data_set.csv')
     files={'order_items':['order_id',    'order_item_id',    'product_id',    'seller_id',    'shipping_limit_date',    'price',    'freight_value'],
