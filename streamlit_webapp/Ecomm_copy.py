@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 #from kafka import KafkaConsumer
 import json
 import time
-import surprise
+#import surprise
 import seaborn as sns
 import numpy as np
 import pickle
