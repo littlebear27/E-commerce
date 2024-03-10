@@ -141,8 +141,8 @@ def get_recommendations(algo, df, selected_customer_id):
 
 @st.cache_data(show_spinner=False)
 def churn_data():
-    df = pd.read_csv('clv_data.csv')
-    rfm_df = pd.read_csv('rfm_df.csv')
+    df = pd.read_csv('https://drive.google.com/file/d/1Wc2YNd1vx7tyaLx-2PrYrOZbLSDHJ4g_/view?usp=drive_link')
+    rfm_df = pd.read_csv('https://drive.google.com/file/d/1rUtejHq3QCYG7oVul0Urr2qIpYAV3jMX/view?usp=sharing')
     return df,rfm_df
 
 
