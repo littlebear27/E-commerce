@@ -8,7 +8,7 @@ from streamlit_extras.metric_cards import style_metric_cards
 # st.set_option('deprecation.showPyplotGlobalUse', False)
 import plotly.graph_objs as go
 import matplotlib.pyplot as plt
-from kafka import KafkaConsumer
+#from kafka import KafkaConsumer
 import json
 import time
 import surprise
