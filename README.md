@@ -17,6 +17,10 @@ The project leverages benefits of pySpark, HDFS and Hive for data preprocessing 
 Python, Jupyter, Machine learning, Spark, Hive, HDFS, Streamlit, numpy, pandas, Matplotlib, seaborn, pyplot.
 
 ### Results:
+#### Web App:
+![](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/Churn_pred_web.png)
+![](https://github.com/littlebear27/E-commerce-KPI-dashboards-and-analytics/blob/main/Results/reccom.png)
+
 #### Dashboards:
 Trends:
 
